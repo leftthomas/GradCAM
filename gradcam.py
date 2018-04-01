@@ -3,12 +3,7 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 import torchvision.transforms as transforms
-from torch import nn
 from torch.autograd import Variable
-from torch.utils.data import DataLoader
-from torchvision.datasets import CIFAR100, CIFAR10, MNIST, FashionMNIST, STL10, SVHN
-
-from models import MNISTNet, FashionMNISTNet, CIFAR10Net, CIFAR100Net, SVHNNet, STL10Net
 
 
 class GradCam:
