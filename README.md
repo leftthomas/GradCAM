@@ -21,6 +21,6 @@ optional arguments:
 --save_name               saved image name [default value is grad_cam.png]
 ```
 
-## Results
+## Result
 ![result](both.png)
 ![result](grad_cam.png)
