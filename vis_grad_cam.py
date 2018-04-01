@@ -14,7 +14,7 @@ if __name__ == '__main__':
 
     opt = parser.parse_args()
 
-    IMAGE_NAME = opt.image_path
+    IMAGE_NAME = opt.image_name
     SAVE_NAME = opt.save_name
     test_image = (transforms.ToTensor()(Image.open(IMAGE_NAME))).unsqueeze(dim=0)
     model = vgg19(pretrained=True)
