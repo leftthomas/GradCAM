@@ -1,6 +1,6 @@
 # GradCAM
 A PyTorch implementation of Grad-CAM based on ICCV 2017 paper 
-[Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391)
+[Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/abs/1610.02391).
 
 ## Requirements
 * [Anaconda](https://www.anaconda.com/download/)
